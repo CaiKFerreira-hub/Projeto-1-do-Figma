@@ -94,6 +94,10 @@ button{
     font-size: 5vmin;
 }
 
+button:hover{
+    background-color: #07794f;
+}
+
 @media (min-width: 1480px){
     h1{
         font-size: 32px;

@@ -93,3 +93,38 @@ button{
     border: none;
     font-size: 5vmin;
 }
+
+@media (min-width: 1480px){
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .imagem-mulher{
+        margin: 10px;
+    }
+
+    input{
+        width: 500px;
+        padding: 20px;
+    }
+
+    button{
+        width: 500px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .email{
+        margin: 0;
+        align-items: center;
+    }
+
+}

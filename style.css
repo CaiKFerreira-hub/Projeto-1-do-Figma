@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #0A0171;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vmin;
+}
+
+.item{
+    height: 4vmin;
+    justify-content: center;
+}
+
+.imagem-mulher {
+    display: flex;
+    justify-content: center;
+    margin: 12vmin;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vmin;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+}
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3vmin;
+    margin: 6vmin;
+}
+
+.texto2, h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 4.2vmin;
+    font-weight: 100;
+}
+
+.head-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 3vmin;
+}
+
+.head-direita {
+    display: flex;
+    gap: 3vmin;
+}
+
+.email, input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vmin;
+    padding: 5vmin;
+    gap: 3vmin;
+    border-radius: 5vmin;
+    background: none;
+    font-weight: 100;
+}
+
+input{
+    color: #FFFFFF;
+    border: #FFFFFF 0.2vmin solid;
+}
+
+input::placeholder{
+    color: #ffffff80;
+}
+
+button{
+    background-color: #2BC990;
+    color: #FFFFFF;
+    padding: 5vmin;
+    margin-top: 4vmin;
+    border-radius: 5vmin ;
+    border: none;
+    font-size: 5vmin;
+}
+
+button:hover{
+    background-color: #07794f;
+}
+
+@media (min-width: 1480px){
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .imagem-mulher{
+        margin: 10px;
+    }
+
+    input{
+        width: 500px;
+        padding: 20px;
+    }
+
+    button{
+        width: 500px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .email{
+        margin: 0;
+        align-items: center;
+    }
+
+}

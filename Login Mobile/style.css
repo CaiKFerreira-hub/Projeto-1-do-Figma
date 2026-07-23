@@ -18,6 +18,11 @@ header {
     margin: 5vmin;
 }
 
+.item{
+    height: 4vmin;
+    justify-content: center;
+}
+
 .imagem-mulher {
     display: flex;
     justify-content: center;
